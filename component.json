@@ -1,0 +1,13 @@
+{
+  "name": "dynamic-sheet",
+  "repo": "mnmly/dynamic-sheet",
+  "description": "Dynamically creates stylesheet",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js"
+  ]
+}

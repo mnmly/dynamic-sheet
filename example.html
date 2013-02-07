@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Example</title>
+  </head>
+  <body>
+    <div>&nbsp;</div>
+    <script src="build/build.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+      var DynamicSheet = require( 'dynamic-sheet' ),
+          dynamicSheet = new DynamicSheet(),
+          style = [ "body{ background: lightblue; }"
+                  , "div{ background: lightyellow; width: 100px; height: 100px; margin: 0 auto; margin-top: 100px; }"].join( '\n' );
+      dynamicSheet.insert( style );
+    </script>
+  </body>
+</html>
